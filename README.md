@@ -1,6 +1,3 @@
-Here is a concise, punchy version of your paper formatted exactly for your GitHub `README.md`. It strips out the generic filler, focuses strictly on your real numbers, and highlights your pipeline.
-
-```markdown
 # Differentiating Cognitive Strain from Passive Disengagement: A Dual-Axis EEG Analysis of Objective Complexity vs. Subjective Confusion
 
 **Author:** Mihika Saraf  
@@ -15,7 +12,7 @@ Traditional educational models assume a uniform physiological response to diffic
 ##  Methodology & Pipeline
 * **Hardware & Dataset:** Analyzed multi-subject brainwave data (10 students, 512 Hz sample rate) captured via a single-channel NeuroSky MindSet headset.
 * **Automated Blink Detection:** Built an automated electromyographic (EMG) artifact filter using a strict statistical boundary:
-  $$\text{Threshold} = \mu + 3\sigma$$
+  Threshold = μ  + 3σ
   Evaluating the raw EEG array yielded an empirical threshold of **1859.26 μV** to automatically isolate and count eye-blinks without manual verification.
 * **Timeline Masking:** Isolated self-reported confusion intervals to create a distinct sub-timeline containing exactly **6,567 data points** for internal neuro-metric analysis.
 
