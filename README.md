@@ -13,7 +13,7 @@ Traditional educational models assume a uniform physiological response to diffic
 * **Hardware & Dataset:** Analyzed multi-subject brainwave data (10 students, 512 Hz sample rate) captured via a single-channel NeuroSky MindSet headset.
 * **Automated Blink Detection:** Built an automated electromyographic (EMG) artifact filter using a strict statistical boundary:
   Threshold = μ  + 3σ
-  Evaluating the raw EEG array yielded an empirical threshold of **1859.26 μV** to automatically isolate and count eye-blinks without manual verification.
+* Evaluating the raw EEG array yielded an empirical threshold of **1859.26 μV** to automatically isolate and count eye-blinks without manual verification.
 * **Timeline Masking:** Isolated self-reported confusion intervals to create a distinct sub-timeline containing exactly **6,567 data points** for internal neuro-metric analysis.
 
 ---
@@ -26,8 +26,8 @@ External difficulty and internal confusion trigger diametrically opposed physica
 * **Subjective Confusion (-24.92% blink rate):** True personal misunderstanding severely suppresses the natural blinking reflex.
 
 ### 2. Cognitive State Mapping (The Mental Split)
-To find out what drives the unblinking stare during confusion, we cross-referenced the 6,567 confused data points against Beta-wave (Attention) and Alpha-wave (Meditation) metrics[cite: 1]. The data soundly rejects the idea that confusion triggers active focus, showing that students spend nearly double the time zoned out:
-* **Blanking Out / "Blank Stare" (High Meditation):** **27.97%** of the timeline[cite: 1]. Brainwaves reflect mental paralysis/stalling where the student hits an intellectual wall and experiences an involuntary zone-out.
+To find out what drives the unblinking stare during confusion, we cross-referenced the 6,567 confused data points against Beta-wave (Attention) and Alpha-wave (Meditation) metrics. The data soundly rejects the idea that confusion triggers active focus, showing that students spend nearly double the time zoned out:
+* **Blanking Out / "Blank Stare" (High Meditation):** **27.97%** of the timeline. Brainwaves reflect mental paralysis/stalling where the student hits an intellectual wall and experiences an involuntary zone-out.
 * **Active Focus (High Attention):** Only **16.22%** of the timeline.
 * **Neutral Baseline:** **55.81%** of the timeline.
 
